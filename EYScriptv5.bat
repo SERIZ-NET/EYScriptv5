@@ -33,7 +33,9 @@ ftp -s:script.txt 103.127.64.150
 REM === Cleanup ===
 cd c:/
 rm EYScriptv5.zip
+rm EYScriptv5.bat
 Remove-Item EYScriptv5 -Recurse -Force -ErrorAction SilentlyContinue
 
 echo === SELESAI ===
+
 pause
