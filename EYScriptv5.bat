@@ -41,11 +41,12 @@ ftp -s:script.txt 103.127.64.150
 REM === Cleanup ===
 cd c:/
 del EYScriptv5.zip
+yes | rmdir EYScriptv5
 del EYScriptv5.bat
-rmdir EYScriptv5
 
 echo === SELESAI ===
 pause
+
 
 
 
