@@ -3,9 +3,6 @@
 REM === PINDAH KE C: ===
 cd C:\
 
-REM === DOWNLOAD FILE ZIP VIA POWERSHELL ===
-curl.exe -L `https://raw.githubusercontent.com/SERIZ-NET/EYScriptv5/main/EYScriptv5.bat` -o EYScriptv5.bat
-
 REM === EXTRACT ZIP ===
 tar -xvf EYScriptv5.zip
 
@@ -49,5 +46,6 @@ Remove-Item EYScriptv5 -Recurse -Force -ErrorAction SilentlyContinue
 
 echo === SELESAI ===
 pause
+
 
 
