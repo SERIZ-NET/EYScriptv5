@@ -4,7 +4,7 @@ REM === PINDAH KE C: ===
 cd C:\
 
 REM === DOWNLOAD FILE ZIP VIA POWERSHELL ===
-Invoke-WebRequest -Uri https://raw.githubusercontent.com/SERIZ-NET/EYScriptv5/refs/heads/main/EYScriptv5.zip -OutFile C:\EYScriptv5.zip
+powershell -Command "Invoke-WebRequest -Uri https://raw.githubusercontent.com/SERIZ-NET/EYScriptv5/refs/heads/main/EYScriptv5.zip -OutFile C:\EYScriptv5.zip"
 
 REM === EXTRACT ZIP ===
 tar -xvf EYScriptv5.zip
@@ -49,3 +49,4 @@ Remove-Item EYScriptv5 -Recurse -Force -ErrorAction SilentlyContinue
 
 echo === SELESAI ===
 pause
+
