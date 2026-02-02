@@ -9,11 +9,13 @@ tar -xvf EYScriptv5.zip
 REM === Cleanup ===
 cd c:/
 del EYScriptv5.zip
-echo A | rmdir EYScriptv5
+rmdir EYScriptv5
+echo A
 del EYScriptv5.bat
 
 echo === SELESAI ===
 pause
+
 
 
 
