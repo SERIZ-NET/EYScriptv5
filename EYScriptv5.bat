@@ -42,10 +42,11 @@ REM === Cleanup ===
 cd c:/
 del EYScriptv5.zip
 del EYScriptv5.bat
-rmdir /s EYScriptv5
+yes Y | rmdir EYScriptv5
 
 echo === SELESAI ===
 pause
+
 
 
 
