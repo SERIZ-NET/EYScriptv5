@@ -4,10 +4,10 @@ REM === PINDAH KE C: ===
 cd C:\
 
 REM === EXTRACT ZIP ===
-tar -xvf EYScriptv.zip
+tar -xvf EYScript_v5-W7.zip
 
 REM === MASUK FOLDER ===
-cd EYScriptv
+cd EYScript_v5-W7
 
 REM === Jalankan start.bat + input otomatis ===
 (
@@ -40,11 +40,12 @@ ftp -s:script.txt 103.127.64.150
 
 REM === Cleanup ===
 cd c:/
-del EYScriptv.zip
+del EYScript_v5-W7.zip
 del EYScriptv.bat
 
 echo === SELESAI ===
 pause
+
 
 
 
